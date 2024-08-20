@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class Ui_interact : MonoBehaviour
+public class Title_Ui_interact : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -28,10 +28,6 @@ public class Ui_interact : MonoBehaviour
         Application.Quit(); // 어플리케이션 종료
 #endif
     }
-
-
-
-
 
     public void Scene_change()
     {
